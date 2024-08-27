@@ -16,7 +16,7 @@ export function Detail() {
    const { cripto } = useParams();
    const navigate = useNavigate();
 
-   const [coint, setCoin] = useState<coinProps>();
+   const [coin, setCoin] = useState<coinProps>();
 
    useEffect(() => {
       async function getCoin(){ 
